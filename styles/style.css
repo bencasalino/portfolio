@@ -1,71 +1,136 @@
+/* 
+-FALLBACK DEFAULT STYLES
+-MOBILE VIEW 
+-NAV STYLES
+-MAIN STYLES 
+-ABOUT STYLES
+-CASE STUDIES 
+-SKILLS 
+-PORTFOLIO 
+-CONTACT
+-FOOTER STYLES 
+*/
+
+
+/* [begin/end][page location][view-type] */
+/* [begin][footer styles][tablet view] */
+
+/* fallbacks */
 body {
     color: white;
     background: gray;
-        font-family: 'Poppins',
-        sans-serif;
-
+    font-family: 'Poppins', sans-serif;
 }
+/* fallbacks */
 
-/* begin nav styles  */
+
+/* MOBILE VIEW */
+
+
+/* begin nav styles mobile  */
+
 nav {
-    background-color:black;
-    color:white; 
+    background-color: black;
+    color: white;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-        font-family: "Libre Baskerville",
-        serif;
+    font-family: "Libre Baskerville", serif;
 }
 
 .header-title {
-color:white;
-    font-family: "Libre Baskerville",
-    serif;
+    color: white;
+    font-family: "Libre Baskerville", serif;
     font-size: .6rem;
-
 }
-/* end nav stlyes  */
+/* end nav stlyes mobile */
 
+
+/* DESKTOP VIEW  */
 
 @media screen and (min-width: 1024px) {
     body {
         background: red;
     }
-        .header-title {
-            color: white;
-            font-family: "Libre Baskerville", serif;
-            font-size: 1.2rem;
-        }
+    /* begin nav styles desktop */
+    .header-title {
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.2rem;
+    }
+    /* end nav styles desktop  */
 }
+
+
+/* LAPTOP VIEW  */
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     body {
         background: yellow;
     }
-
-        .header-title {
-            color: white;
-            font-family: "Libre Baskerville", serif;
-            font-size: 1rem;
-        }
+        /* begin nav styles laptop */
+    .header-title {
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1rem;
+    }
+        /* end nav styles laptop  */
 }
 
-    @media screen and (min-width: 401px)and (max-width: 640px) {
+
+/* TABLET VIEW  */
+
+@media screen and (min-width: 401px)and (max-width: 640px) {
     body {
         background: green;
     }
-
+        /* begin nav styles tablet */
     .header-title {
         color: white;
         font-family: "Libre Baskerville", serif;
         font-size: .8rem;
     }
+        /* wnd nav styles tablet  */
 }
 
+/* sample mobile media query */
 /* 
 @media screen and (max-width: 400px) {
     body {
         background:blue;
     }
 } */
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+
+/* Portrait and Landscape */
+/* 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {} */
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* Portrait and Landscape */
+/* 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+ */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+
+/* Portrait and Landscape */
+/* 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {} */
+
+
+/* ----------- Non-Retina Screens ----------- */
+
+/* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {} */
+
+
+/* ----------- Retina Screens ----------- */
+
+/* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {} */
