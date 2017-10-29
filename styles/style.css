@@ -22,6 +22,7 @@ nav {
 color:white;
     font-family: "Libre Baskerville",
     serif;
+    font-size: .6rem;
 
 }
 /* end nav stlyes  */
@@ -31,23 +32,40 @@ color:white;
     body {
         background: red;
     }
+        .header-title {
+            color: white;
+            font-family: "Libre Baskerville", serif;
+            font-size: 1.2rem;
+        }
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     body {
         background: yellow;
     }
+
+        .header-title {
+            color: white;
+            font-family: "Libre Baskerville", serif;
+            font-size: 1rem;
+        }
 }
 
     @media screen and (min-width: 401px)and (max-width: 640px) {
     body {
         background: green;
     }
+
+    .header-title {
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: .8rem;
+    }
 }
 
-
+/* 
 @media screen and (max-width: 400px) {
     body {
         background:blue;
     }
-}
+} */
