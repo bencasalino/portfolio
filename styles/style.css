@@ -1,6 +1,8 @@
 body {
     color: white;
     background: gray;
+        font-family: 'Poppins',
+        sans-serif;
 
 }
 
@@ -12,10 +14,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+        font-family: "Libre Baskerville",
+        serif;
 }
 
 .header-title {
 color:white;
+    font-family: "Libre Baskerville",
+    serif;
 
 }
 /* end nav stlyes  */
