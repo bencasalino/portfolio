@@ -1,0 +1,47 @@
+body {
+    color: white;
+    background: gray;
+
+}
+
+/* begin nav styles  */
+nav {
+    background-color:black;
+    color:white; 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+color:white;
+
+}
+/* end nav stlyes  */
+
+
+@media screen and (min-width: 1024px) {
+    body {
+        background: red;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    body {
+        background: yellow;
+    }
+}
+
+    @media screen and (min-width: 401px)and (max-width: 640px) {
+    body {
+        background: green;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+        background:blue;
+    }
+}
