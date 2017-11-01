@@ -45,3 +45,39 @@ nav {
     font-size: .6rem;
 }
 /* end nav stlyes mobile */
+
+
+
+
+/**/
+/* PARALLAX  */
+
+.parallax-container {
+margin:auto;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.parrllax {
+
+}
+.hero {
+    z-index: -999;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+padding-top: 23.5rem;
+font-size: 3rem;
+}
+
+h2 {
+        font-family: "Libre Baskerville", serif;
+}
