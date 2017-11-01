@@ -10,6 +10,9 @@
     <meta name="author" content="Benjamin Casalino">
     <meta name="keywords" content="Denver,Colorado,Web,Development,HTML,CSS,JavaScript">
     <link rel="icon" href="#">
+    <!-- animate css CDN   -->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <!-- my fonts -->
@@ -28,35 +31,33 @@
         <nav>
             <span class="header-title">BEN CASALINO <em class="wow fadeInDown">- </em>WEB DESIGN
 <em class="wow fadeInDown"> &amp;</em> DEVELOPMENT</span>
-</nav>
-<!-- end header -->
-<div class="parallax-container">
-    <div class="parallax">
-        <img class="hero" src="main_bg.gif">
-        <div class="test">
-            <h1> Hello World!
+        </nav>
+        <!-- end header -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img class="hero" src="main_bg.gif">
+                <div class="test">
+                    <h1 class="animated slideInDown"> Hello World!
                 </h1>
-            <h2>Welcome to my portfolio website.</h2>
+                    <h2 class="animated slideInDown">Welcome to my portfolio website.</h2>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
         <div class="section white">
             <div class="row container">
             </div>
         </div>
         <!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js">
+        </script>
+        <script type="text/javascript" src="js/materialize.min.js">
+        </script>
 
-</script>
-<script type="text/javascript" src="js/materialize.min.js">
-
-</script>
-
-<script>
-$(document).ready(function(){
-$('.parallax').parallax();
-});
-</script>
+        <script>
+            $(document).ready(function() {
+                $('.parallax').parallax();
+            });
+        </script>
 
 </body>
 
