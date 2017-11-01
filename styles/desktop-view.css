@@ -1,0 +1,14 @@
+/* DESKTOP VIEW  */
+
+@media screen and (min-width: 1024px) {
+    body {
+        background: red;
+    }
+    /* begin nav styles desktop */
+    .header-title {
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.2rem;
+    }
+    /* end nav styles desktop  */
+}

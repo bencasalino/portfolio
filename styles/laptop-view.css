@@ -1,0 +1,14 @@
+/* LAPTOP VIEW  */
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    body {
+        background: yellow;
+    }
+        /* begin nav styles laptop */
+    .header-title {
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1rem;
+    }
+        /* end nav styles laptop  */
+}

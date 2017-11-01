@@ -1,0 +1,14 @@
+/* TABLET VIEW  */
+
+@media screen and (min-width: 401px)and (max-width: 640px) {
+    body {
+        background: green;
+    }
+        /* begin nav styles tablet */
+    .header-title {
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: .8rem;
+    }
+        /* wnd nav styles tablet  */
+}

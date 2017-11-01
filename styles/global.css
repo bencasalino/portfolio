@@ -1,0 +1,47 @@
+/*
+-FALLBACK DEFAULT STYLES
+-MOBILE VIEW
+-NAV STYLES
+-MAIN STYLES
+-ABOUT STYLES
+-CASE STUDIES
+-SKILLS
+-PORTFOLIO
+-CONTACT
+-FOOTER STYLES
+*/
+
+
+/* [begin/end][page location][view-type] */
+/* [begin][footer styles][tablet view] */
+
+/* fallbacks */
+body {
+    color: white;
+    background: gray;
+    font-family: 'Poppins', sans-serif;
+}
+/* fallbacks */
+
+
+/* MOBILE VIEW */
+
+
+/* begin nav styles mobile  */
+
+nav {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+.header-title {
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-size: .6rem;
+}
+/* end nav stlyes mobile */
