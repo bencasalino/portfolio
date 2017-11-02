@@ -39,6 +39,11 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+
+strong {
+    font-weight: 900;
+}
+
 .header-title {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -140,5 +145,10 @@ align-items: center;
     font-family: 'Poppins', sans-serif;
     padding: 1rem;
     max-width: 30rem;
+
+}
+
+
+.states {
 
 }
