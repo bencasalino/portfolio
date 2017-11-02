@@ -43,6 +43,21 @@ nav {
 strong {
     font-weight: 900;
 }
+.cta {
+
+    border-radius: .4rem;
+    color: black;
+    font-size: .8rem;
+    margin: 1.4rem;
+    padding:.5rem 1rem .5rem 1rem;
+    border: solid #000000 .14rem;
+}
+
+.cta:hover {
+background-color: black;
+color: white;
+}
+
 
 .header-title {
     color: white;
@@ -148,7 +163,6 @@ align-items: center;
 
 }
 
-
-.states {
-
+.resume {
+    padding: 1.6rem 0 2rem 0;
 }
