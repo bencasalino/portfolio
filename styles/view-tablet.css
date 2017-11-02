@@ -11,6 +11,26 @@
         font-size: .8rem;
     }
         /* wnd nav styles tablet  */
+        .parent-me {
+            display: flex;
+                        flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            min-height: 50vh;
+            align-items:
+                    width:500px;
+
+        }
+
+        .circle-me {
+        color:black;
+        }
+
+
+        .more-about-me {
+        color:black;
+        }
 
 
 

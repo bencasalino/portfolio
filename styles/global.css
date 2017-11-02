@@ -36,12 +36,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-title {
     color: white;
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Poppins', sans-serif;
     font-size: .6rem;
 }
 /* end nav stlyes mobile */
@@ -80,4 +80,65 @@ font-size: 3rem;
 
 h2 {
         font-family: "Libre Baskerville", serif;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.about-me {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: "Libre Baskerville", serif;
+    min-height: 10vh;
+    color:black;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+
+
+.parent-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    min-height: 50vh;
+}
+
+.circle-me {
+color:black;
+}
+
+.circle {
+           border-radius: 50%;
+}
+
+
+.more-about-me {
+color:black;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+}
+
+.bio {
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    max-width: 30rem;
+
 }

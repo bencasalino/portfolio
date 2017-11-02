@@ -11,4 +11,26 @@
         font-size: 1.2rem;
     }
     /* end nav styles desktop  */
+
+    .parent-me {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        min-height: 50vh;
+        /*width: 500px;*/
+        padding-left: 20vh;
+        padding-right: 20vh;
+
+    }
+
+    .circle-me {
+    color:black;
+    }
+
+
+    .more-about-me {
+    color:black;
+    }
 }

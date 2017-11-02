@@ -11,5 +11,27 @@
         font-size: 1rem;
     }
         /* end nav styles laptop  */
+        .parent-me {
+            display: flex;
+                        flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            min-height: 50vh;
+            align-items:
+            width:500px;
+
+        }
+
+        .circle-me {
+        color:black;
+        }
+
+
+        .more-about-me {
+        color:black;
+        }
+
+
 
 }
