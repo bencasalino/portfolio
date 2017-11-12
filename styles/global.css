@@ -65,6 +65,9 @@ nav {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+-moz-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
 }
 
 .header-title {
@@ -108,12 +111,15 @@ h1 {
 h2 {
     font-family: "Libre Baskerville", serif;
 }
-
+/* begin about me mobile styles*/
 .parent {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
+    -webkit-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+-moz-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
 }
 
 .about-me {
@@ -122,6 +128,7 @@ h2 {
     font-family: "Libre Baskerville", serif;
     min-height: 10vh;
     color: black;
+
 }
 
 .parent-me {
@@ -151,9 +158,72 @@ h2 {
 .bio {
     font-family: 'Poppins', sans-serif;
     padding: 1rem;
-    max-width: 30rem;
+    max-width: 24rem;
 }
 
 .resume {
     padding: 1.6rem 0 2rem 0;
 }
+
+/* end about me mobile styles*/
+
+
+
+.clymb-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    /*align-items: center;*/
+    background-color: #e34d42;
+    min-height: 10vh;
+}
+
+
+.clients{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column nowrap;*/
+align-content: center;
+    background-color: #e34d42;
+    /*height: 40vh;*/
+}
+.client-tile {
+    padding: .2rem;
+    align-content: center;
+        background-color: #e34d42;
+    height: 15vh;
+
+
+    -webkit-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+-moz-box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+box-shadow: 0px 11px 24px 0px rgba(26,26,26,1);
+}
+
+
+
+.about-clymb {
+    display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+
+               background-color: #e34d42;
+}
+
+.desc {
+padding: 1rem;
+    height: 25vh;
+            background-color: #e34d42;
+            width: 400px;
+}
+
+.tandc {
+padding: 1rem;
+    height: 25vh;
+            background-color: #e34d42;
+            width: 400px;
+}
+
+/*iframe {
+    height: 40vh;
+    width: 90%;
+}*/
